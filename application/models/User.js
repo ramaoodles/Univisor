@@ -1,6 +1,5 @@
- var softDelete = require('mongoose-softdelete');
- var timestamps = require('mongoose-timestamp');
-
+var softDelete = require('mongoose-softdelete');
+var timestamps = require('mongoose-timestamp');
  var UserSchema = new mongooseSchema({
 	firstName: {
 		type: String,
@@ -19,7 +18,8 @@
 		type: String,
 		default: '',
 		required: true,
-		trim: true
+		trim: true,
+        unique: true
 	},
     password: {
 		type: String,
@@ -48,12 +48,28 @@
    created: {
 		type: Date,
 		default: Date.now
-	}
+	},
+    
 });
 
 UserSchema.pre('findOneAndUpdate', function(next) {
   this.options.runValidators = true;
   next();
+});
+
+UserSchema.pre("save",function(next, done) {
+    var self = this;
+    mongoose.models["User"].findOne({email : self.email},function(err, results) {
+        if(err) {
+            done(err);
+        } else if(results) { //there was a result found, so the email address exists
+            self.invalidate("email","email must be unique");
+            done(new Error("email must be unique"));
+        } else {
+            done();
+        }
+    });
+    next();
 });
 
 UserSchema.plugin(timestamps);

@@ -24,10 +24,15 @@ app.use(mongoosemask(function (result, mask, done) {
 	done(null, masked);
 }));
 
+passport = require('./configurations/PassportConf.js');
+
+// required for passport
+//app.use(passport.initialize());
+
+
+
 Layers = require('./application-utilities/layers').Express;
 var wiring = require('./configurations/UrlMapping');
 new Layers(app, router, __dirname + '/application/controller-service-layer', wiring);
 
-//app.use('/',router)
-
-configurationHolder.Bootstrap.initApp()
+configurationHolder.Bootstrap.initApp();

@@ -1,7 +1,11 @@
-	module.exports = function (app) {
+	module.exports = function (app, pass) {
+        var passport = require('passport');
+         console.log("--------");
+       // console.log(app);
+       // console.log();
 		var controllers = app.controllers,
 			views = app.views;
-
+      var sec = configurationHolder.security;
 		return {
 			"/user": [{
 					method: "POST",
@@ -46,6 +50,18 @@
 					views: {
 						json: views.jsonView
 					}
+				}
+			],
+            "/login": [{
+					method: "POST",
+                    action:passport.initialize(), 
+					middleware: [passport.authenticate(  
+                          'local', {
+                            session: false
+                          }), sec.generateToken, sec.respond],
+					views: {
+						json: views.jsonView					
+                    }
 				}
 			]
 

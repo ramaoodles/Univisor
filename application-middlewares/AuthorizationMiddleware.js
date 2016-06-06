@@ -73,8 +73,47 @@ module.exports.AuthorizationMiddleware = (function () {
         }
     }
 
+        
+    
+  var serialize = function (req, res, next) {
+        domain.User.updateOrCreate(req.user, function(err, user) {
+            if (err) {
+              return next(err);
+            }
+            // we store information needed in token in req.user again
+            req.user = {
+              id: user.id
+            };
+            next();
+          });
+        }
+
+        var generateToken = function  (req, res, next) {
+            var token  = uuid.v1();
+            var user = req.user;
+            var AuthenticationToken = new domain.AuthenticationToken({
+                authToken: token, 
+                email: user.email,
+                user:user
+            });
+            AuthenticationToken.findOneAndUpdate(function(err, authenticationToken) {
+                if (err) {
+                  return next(err);
+                }
+           
+          });           
+          next();
+        }
+
+        var respond =  function (req, res) {
+          res.status(200).json({
+            user: req.user,
+            token: req.token
+          });
+
+        }
     //public methods are  return
     return {
-        authority: authority
+        authority: authority, respond:respond, generateToken:generateToken, serialize:serialize
     };
 })();
