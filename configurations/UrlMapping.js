@@ -1,7 +1,6 @@
 	module.exports = function (app) {
 		var controllers = app.controllers,
 			views = app.views;
-
 		return {
 			"/user": [{
 					method: "POST",
@@ -47,7 +46,21 @@
 						json: views.jsonView
 					}
 				}
-			]
+			],
+			"/login":[{
+				method:"POST",
+				action:controllers.authenticationController.login,
+				views:{
+					json:views.jsonView
+				}
+			}],
+			"/logout":[{
+				method:"DELETE",
+				action:controllers.authenticationController.logout,
+				views:{
+					json:views.jsonView
+				}
+			}]
 
 		};
 	};

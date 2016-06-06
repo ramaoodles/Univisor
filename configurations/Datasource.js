@@ -6,17 +6,17 @@
 var getDbConnection = function () {
     switch (process.env.NODE_ENV) {
     case 'development':
-      var db = mongoose.connect('mongodb://admin:oodles@192.168.2.200:27017/125fortime');
+      var db = mongoose.connect('mongodb://admin:oodles@localhost:27017/125fortime');
       return checkMongooseConnection(db)
      case 'staging':
        var db = mongoose.connect('mongodb://admin:oodles@localhost:27017/mongoseed');           
         return checkMongooseConnection(db)
     case 'production':
-      var db = mongoose.connect('mongodb://admin:oodles@localhost:27017/mongoseed');           
+      var db = mongoose.connect('mongodb://admin:oodles@localhost:27017/mongoseed');
        return checkMongooseConnection(db)
 
     case 'test':
-        var db = mongoose.connect('mongodb://admin:oodles@localhost:27017/mongoseed');  
+        var db = mongoose.connect('mongodb://admin:oodles@localhost:27017/mongoseed');
         return checkMongooseConnection(db)
     }
 }
