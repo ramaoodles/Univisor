@@ -9,8 +9,14 @@ var logout=function(req,res){
     console.log("inside logout controller");
     AuthenticationService.logoutUser(req.get("Authorization"),res);
 }
+var authenticationCallback=function(req,res){
+  console.log("inside auth callback");
+  // console.log(req);
+  responseHandler(res, "login successfull", 200, false, null);
+}
 return {
   login:login,
-  logout:logout
+  logout:logout,
+  authenticationCallback:authenticationCallback
 }
 })();

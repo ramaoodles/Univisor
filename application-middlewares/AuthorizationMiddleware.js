@@ -1,6 +1,6 @@
 /*
  * @author Abhimanyu
- * This module is for the authorization process . Called as middleware function to decide whether user have enough authority to access the 
+ * This module is for the authorization process . Called as middleware function to decide whether user have enough authority to access the
  *
  */
 var async = require('async')
@@ -27,7 +27,7 @@ module.exports.AuthorizationMiddleware = (function () {
     }
 
     /*
-     * find User and its role using authenticationToken. 
+     * find User and its role using authenticationToken.
      */
     var findRoleByAuthToken = function (next, results, req, res, authToken) {
         console.log(authToken)
@@ -45,7 +45,7 @@ module.exports.AuthorizationMiddleware = (function () {
     /*
      *  call as middleware to decide the accessiblity of the function for the loggedIn user
      *  find user by AuthenticationToken
-     *  Decide based on the role of user and accesslevel whether user is authorized or not 
+     *  Decide based on the role of user and accesslevel whether user is authorized or not
      */
     var authority = function (accessLevel) {
         return function (req, res, next) {
@@ -73,8 +73,47 @@ module.exports.AuthorizationMiddleware = (function () {
         }
     }
 
+
+
+  var serialize = function (req, res, next) {
+        domain.User.updateOrCreate(req.user, function(err, user) {
+            if (err) {
+              return next(err);
+            }
+            // we store information needed in token in req.user again
+            req.user = {
+              id: user.id
+            };
+            next();
+          });
+        }
+
+        var generateToken = function  (req, res, next) {
+            var token  = uuid.v1();
+            var user = req.user;
+            var AuthenticationToken = new domain.AuthenticationToken({
+                authToken: token,
+                email: user.email,
+                user:user
+            });
+            AuthenticationToken.save(function(err, authenticationToken) {
+                if (err) {
+                  return next(err);
+                }
+          });
+          req.token = token;
+          next();
+        }
+
+        var respond =  function (req, res) {
+          res.status(200).json({
+            user: req.user,
+            token: req.token
+          });
+
+        }
     //public methods are  return
     return {
-        authority: authority
+        authority: authority, respond:respond, generateToken:generateToken, serialize:serialize
     };
 })();

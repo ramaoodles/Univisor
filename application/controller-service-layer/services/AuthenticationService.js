@@ -14,7 +14,7 @@ module.exports.AuthenticationService = (function() {
     });
   }
   var matchEncryptedPassword = function(password, user) {
-    encryptedPassword = crypto.createHmac('sha1', user.salt).update(password).digest('hex');
+    var encryptedPassword = crypto.createHmac('sha1', user.salt).update(password).digest('hex');
     if (user.password == encryptedPassword) {
       return true;
     } else {
@@ -23,12 +23,11 @@ module.exports.AuthenticationService = (function() {
   }
 
   var authenticateUser = function(email, password, res) {
-    console.log("inside authentication service");
     domain.User.findOne({
-      'email': email,
-      'isAccountActive': true
+      'email': email
+      // 'isAccountActive': true
     }, function(err, userObj) {
-
+      console.log(userObj);
       if (userObj && matchEncryptedPassword(password, userObj)) {
         generateAuthToken(userObj._id, email, res);
       } else {

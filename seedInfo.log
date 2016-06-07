@@ -438,3 +438,975 @@
 {"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2015-08-09T12:02:51.750Z"}
 {"level":"info","message":"Connected to mongo server.","timestamp":"2015-08-09T12:02:51.787Z"}
 {"level":"info","message":"document === { role: 'ROLE_SUPERADMIN',\n  _id: 550e7a479184a5532abc3553,\n  address: [],\n  __v: 0,\n  created: Sun Mar 22 2015 13:46:07 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: 'b0d8bdf0-d06b-11e4-9d80-2f9b6b550b66',\n  password: 'db999bc931b6efe3639a01054316e5386660272d',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2015-08-09T12:02:51.794Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T06:12:02.248Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T06:12:05.288Z"}
+{"name":"MongoError","message":"connect EHOSTUNREACH","level":"error","timestamp":"2016-06-06T06:12:05.290Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T06:12:52.332Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T06:12:55.368Z"}
+{"name":"MongoError","message":"connect EHOSTUNREACH","level":"error","timestamp":"2016-06-06T06:12:55.369Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T06:14:42.744Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T06:14:45.776Z"}
+{"name":"MongoError","message":"connect EHOSTUNREACH","level":"error","timestamp":"2016-06-06T06:14:45.778Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T06:15:36.619Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T06:15:36.693Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T06:15:36.694Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T06:17:54.607Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T06:17:55.250Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-06T06:17:55.252Z"}
+{"$__":{"strictMode":true,"inserting":true,"getters":{},"wasPopulated":false,"activePaths":{"paths":{"role":"require","isAccountActive":"require","accountLocked":"require","salt":"require","password":"require","email":"require","lastName":"require","firstName":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"role":true,"isAccountActive":true,"accountLocked":true,"salt":true,"password":true,"email":true,"lastName":true,"firstName":true}},"stateNames":["require","modify","init","default","ignore"]},"emitter":{"domain":null,"_events":{},"_maxListeners":0}},"isNew":false,"_doc":{"firstName":"SuperAdmin","lastName":"oodles","email":"abhimanyu.singh@oodlestechnologies.com","password":"f8e2ff0791c5b2be89b7491852b928cedbacca83","salt":"67bc8210-2bae-11e6-bfb8-c3ff35edb0bb","accountLocked":false,"isAccountActive":true,"created":"2016-06-06T06:17:55.255Z","_id":{"_bsontype":"ObjectID","id":"WU\u0015<«\\\u0018¿\u001bV"},"role":"ROLE_SUPERADMIN","updatedAt":"2016-06-06T06:17:55.267Z","createdAt":"2016-06-06T06:17:55.267Z","deleted":false,"deletedAt":null,"__v":0},"_pres":{"$__original_save":[null,null,null,null]},"_posts":{"$__original_save":[]},"level":"info","message":"","timestamp":"2016-06-06T06:17:55.732Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:44:59.263Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:47:53.448Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:48:01.793Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:48:14.242Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:50:25.378Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:51:45.191Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:56:43.413Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:56:55.920Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:57:41.516Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:58:46.143Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:58:50.739Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T07:59:57.613Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:03:21.079Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:04:27.087Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:06:14.718Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:06:32.009Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:07:04.075Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:07:04.738Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:07:04.801Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:07:13.189Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:07:13.863Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:07:13.875Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:09:07.450Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:09:08.091Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:09:08.104Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:14:17.383Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:14:18.042Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:14:18.058Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:14:59.836Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:15:00.489Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:15:00.500Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:15:53.709Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:15:54.375Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:15:54.388Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:16:11.480Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:16:12.144Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:16:12.156Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:16:38.270Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:16:38.922Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:16:38.937Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:17:34.545Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:17:35.201Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:17:35.213Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:18:05.322Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:18:05.996Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:18:06.008Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:18:36.319Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:19:02.571Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:19:03.223Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:19:03.236Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:19:39.534Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:19:40.194Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:19:40.206Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:21:37.516Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:21:38.176Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:21:38.188Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:21:48.503Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:21:49.161Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:21:49.174Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:22:23.967Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:22:24.615Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:22:24.632Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:24:20.756Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:24:21.407Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:24:21.419Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:24:34.297Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:24:34.974Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:24:34.987Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:24:54.085Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:24:58.152Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:24:58.801Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:24:58.815Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:28:40.753Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:28:41.421Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:28:41.437Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:28:46.838Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:28:47.545Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:28:47.557Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:30:05.294Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:30:05.946Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:30:05.958Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:30:22.186Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:30:22.838Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:30:22.850Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:30:38.957Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:30:39.606Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:30:39.619Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:33:43.973Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:33:44.610Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:33:44.622Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:35:45.462Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:35:46.151Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:35:46.164Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:35:55.473Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:35:56.144Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:35:56.156Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:36:23.396Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:36:31.547Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:36:32.204Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:36:32.216Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:36:54.344Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:36:55.008Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:36:55.021Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T08:37:11.260Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T08:37:11.918Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T08:37:11.931Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:42:11.826Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:42:12.486Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:42:12.497Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:42:43.657Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:42:44.322Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:42:44.335Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:44:37.155Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:44:37.834Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:44:37.846Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:45:00.254Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:45:00.919Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:45:00.931Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:45:03.890Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:45:04.557Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:45:04.569Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:47:13.209Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:47:52.446Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:48:44.302Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:48:44.988Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:48:45.000Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:49:40.590Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:49:41.239Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:49:41.251Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:50:27.439Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:50:28.106Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:50:28.118Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:51:44.237Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:51:44.906Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:51:44.919Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:52:20.667Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:52:21.327Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:52:21.339Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:54:56.191Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:54:56.873Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:54:56.885Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:56:29.226Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:56:29.882Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:56:29.898Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:56:43.983Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:56:44.656Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:56:44.667Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:57:07.928Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:57:23.583Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:57:24.239Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:57:24.251Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:57:38.439Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:57:39.083Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:57:39.095Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:58:45.103Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:58:45.760Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:58:45.772Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T09:59:26.937Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T09:59:27.600Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T09:59:27.613Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:01:09.138Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:01:09.786Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:01:09.798Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:01:29.597Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:01:30.247Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:01:30.258Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:02:55.113Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:02:55.797Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:02:55.809Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:03:22.964Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:03:23.628Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:03:23.641Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:05:24.945Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:05:25.608Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:05:25.620Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:06:07.163Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:06:07.840Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:06:07.857Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:07:07.633Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:07:08.316Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:07:08.328Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:07:43.720Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:07:44.412Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:07:44.424Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:08:22.199Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:08:22.868Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:08:22.879Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:09:34.281Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:09:34.983Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:09:34.995Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:15:09.297Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:15:19.809Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:15:45.993Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:15:46.680Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:15:46.692Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:16:12.075Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:16:12.740Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:16:12.753Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:18:13.444Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:18:14.113Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:18:14.125Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:19:25.799Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:19:26.458Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:19:26.470Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:21:12.292Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:21:12.944Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:21:12.959Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:31:03.329Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:31:04.012Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:31:04.024Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:33:13.355Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:33:14.029Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:33:14.041Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:38:23.301Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:38:23.951Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:38:23.966Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:39:47.422Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:40:42.942Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:40:43.585Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:40:43.597Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:40:52.907Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:40:53.569Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:40:53.581Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:41:05.586Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:41:06.279Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:41:06.296Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:43:16.029Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:43:16.679Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:43:16.694Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:44:18.228Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:44:18.885Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:44:18.896Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:45:24.340Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:45:25.003Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:45:25.015Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:45:59.931Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:46:00.582Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:46:00.594Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:46:57.321Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:46:57.991Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:46:58.004Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:48:35.148Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:49:13.069Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:49:13.722Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:49:13.733Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:50:37.650Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:50:38.320Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:50:38.335Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:50:59.293Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:50:59.986Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:51:00.019Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:51:08.217Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:51:08.872Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:51:08.884Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:55:02.929Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:55:03.586Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:55:03.598Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:55:38.231Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:55:38.885Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:55:38.897Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:56:34.994Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:56:35.669Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:56:35.682Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:57:59.965Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:58:00.625Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:58:00.637Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:58:24.810Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:58:25.475Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:58:25.487Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:59:23.770Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:59:24.427Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:59:24.438Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:59:48.115Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:59:48.782Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:59:48.793Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T10:59:58.594Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T10:59:59.261Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T10:59:59.272Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T11:01:26.124Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T11:01:26.834Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T11:01:26.854Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T11:02:22.242Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T11:02:22.893Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T11:02:22.905Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T11:02:28.332Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T11:02:28.989Z"}
+{"level":"info","message":"document === { _id: 575515938f3cab5c18bf1b56,\n  deletedAt: null,\n  deleted: false,\n  createdAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  updatedAt: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  role: 'ROLE_SUPERADMIN',\n  __v: 0,\n  created: Mon Jun 06 2016 11:47:55 GMT+0530 (IST),\n  isAccountActive: true,\n  accountLocked: false,\n  salt: '67bc8210-2bae-11e6-bfb8-c3ff35edb0bb',\n  password: 'f8e2ff0791c5b2be89b7491852b928cedbacca83',\n  email: 'abhimanyu.singh@oodlestechnologies.com',\n  lastName: 'oodles',\n  firstName: 'SuperAdmin' }","timestamp":"2016-06-06T11:02:29.001Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:04:19.078Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:04:19.080Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:08:54.295Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:08:54.298Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:09:50.481Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:09:50.484Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:10:49.331Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:10:49.334Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:11:30.313Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:11:30.316Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:11:37.977Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:11:37.980Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:13:35.677Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:13:35.680Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:19:30.063Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:19:30.066Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:41:55.038Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:41:55.041Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T12:57:46.631Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T12:57:46.634Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:00:39.226Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:00:39.229Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:14:28.903Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:14:28.906Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:14:46.732Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:14:46.735Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:16:40.251Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:16:40.254Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:17:07.807Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:17:07.810Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:19:08.808Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:19:08.811Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:23:02.625Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:23:02.628Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:23:46.624Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:23:46.627Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:31:51.997Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:31:52.000Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:32:23.394Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:32:23.397Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T13:33:03.442Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:33:03.517Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:33:03.518Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T13:33:57.242Z"}
+{"level":"error","message":"Could not connect to mongo server!","timestamp":"2016-06-06T13:33:57.292Z"}
+{"name":"MongoError","message":"Authentication failed.","ok":0,"code":18,"errmsg":"Authentication failed.","level":"error","timestamp":"2016-06-06T13:33:57.294Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T13:36:12.486Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T13:36:13.497Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-06T13:36:14.145Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-06T13:36:14.213Z"}
+{"$__":{"strictMode":true,"inserting":true,"getters":{},"wasPopulated":false,"activePaths":{"paths":{"role":"require","isAccountActive":"require","accountLocked":"require","salt":"require","password":"require","email":"require","lastName":"require","firstName":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"role":true,"isAccountActive":true,"accountLocked":true,"salt":true,"password":true,"email":true,"lastName":true,"firstName":true}},"stateNames":["require","modify","init","default","ignore"]},"emitter":{"domain":null,"_events":{},"_maxListeners":0}},"isNew":false,"_doc":{"firstName":"Admin","lastName":"admin","email":"rama.shankar@oodlestechnologies.com","password":"96b4f36c2e12cab692d73fe07f8961d9cf33dffb","salt":"a27e8b90-2beb-11e6-b24c-55c59866c258","accountLocked":false,"isAccountActive":true,"created":"2016-06-06T13:36:14.152Z","_id":{"_bsontype":"ObjectID","id":"WU|N>sÈ>:\u0004Ðµ"},"role":"ROLE_ADMIN","updatedAt":"2016-06-06T13:36:14.189Z","createdAt":"2016-06-06T13:36:14.189Z","deleted":false,"deletedAt":null,"__v":0},"_pres":{"$__original_save":[null,null,null,null,null]},"_posts":{"$__original_save":[]},"level":"info","message":"","timestamp":"2016-06-06T13:36:14.260Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T13:39:18.154Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T13:39:18.844Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-06T13:39:18.866Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-06T13:39:18.926Z"}
+{"level":"error","timestamp":"2016-06-06T13:39:18.937Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-06T13:47:03.181Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-06T14:02:52.002Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-06T14:02:52.704Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-06T14:02:52.732Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-06T14:02:52.772Z"}
+{"level":"error","timestamp":"2016-06-06T14:02:52.783Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:14:25.821Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:14:26.531Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:14:26.536Z"}
+{"level":"error","timestamp":"2016-06-07T04:14:26.611Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:14:26.622Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:25:18.339Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:25:19.007Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:25:19.018Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:25:19.059Z"}
+{"level":"error","timestamp":"2016-06-07T04:25:19.070Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:34:31.726Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:34:32.388Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:34:32.392Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:34:32.430Z"}
+{"level":"error","timestamp":"2016-06-07T04:34:32.439Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:36:22.239Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:36:22.900Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:36:22.905Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:36:22.943Z"}
+{"level":"error","timestamp":"2016-06-07T04:36:22.952Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:39:05.285Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:39:05.938Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:39:05.942Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:39:05.980Z"}
+{"level":"error","timestamp":"2016-06-07T04:39:05.994Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:40:04.413Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:40:05.074Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:40:05.079Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:40:05.122Z"}
+{"level":"error","timestamp":"2016-06-07T04:40:05.131Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:41:06.279Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:41:06.935Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:41:06.939Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:41:06.977Z"}
+{"level":"error","timestamp":"2016-06-07T04:41:06.986Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:41:47.753Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:41:48.453Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:41:48.458Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:41:48.497Z"}
+{"level":"error","timestamp":"2016-06-07T04:41:48.506Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:43:59.358Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:44:00.055Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:44:00.060Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:44:00.099Z"}
+{"level":"error","timestamp":"2016-06-07T04:44:00.109Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:45:08.644Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:45:09.322Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:45:09.327Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:45:09.366Z"}
+{"level":"error","timestamp":"2016-06-07T04:45:09.375Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T04:52:58.166Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T04:52:58.826Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T04:52:58.831Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T04:52:58.869Z"}
+{"level":"error","timestamp":"2016-06-07T04:52:58.878Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:06:10.089Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:06:10.758Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:06:10.763Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:06:10.801Z"}
+{"level":"error","timestamp":"2016-06-07T05:06:10.810Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:08:40.572Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:08:41.230Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:08:41.235Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:08:41.273Z"}
+{"level":"error","timestamp":"2016-06-07T05:08:41.282Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:09:53.163Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:09:53.829Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:09:53.834Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:09:53.872Z"}
+{"level":"error","timestamp":"2016-06-07T05:09:53.881Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:11:09.451Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:11:10.126Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:11:10.131Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:11:10.169Z"}
+{"level":"error","timestamp":"2016-06-07T05:11:10.178Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:12:01.603Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:12:02.265Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:12:02.270Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:12:02.308Z"}
+{"level":"error","timestamp":"2016-06-07T05:12:02.317Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:12:15.390Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:12:16.041Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:12:16.045Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:12:16.084Z"}
+{"level":"error","timestamp":"2016-06-07T05:12:16.093Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:13:24.345Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:13:25.011Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:13:25.015Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:13:25.054Z"}
+{"level":"error","timestamp":"2016-06-07T05:13:25.063Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:15:38.486Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:15:39.144Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:15:39.149Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:15:39.188Z"}
+{"level":"error","timestamp":"2016-06-07T05:15:39.197Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:17:20.579Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:17:21.284Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:17:21.289Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:17:21.328Z"}
+{"level":"error","timestamp":"2016-06-07T05:17:21.337Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:17:58.201Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:17:58.899Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:17:58.906Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:17:58.942Z"}
+{"level":"error","timestamp":"2016-06-07T05:17:58.952Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:18:46.700Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:18:47.397Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:18:47.402Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:18:47.439Z"}
+{"level":"error","timestamp":"2016-06-07T05:18:47.448Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:19:48.243Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:19:48.952Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:19:48.957Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:19:48.994Z"}
+{"level":"error","timestamp":"2016-06-07T05:19:49.003Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:20:31.376Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:20:32.059Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:20:32.063Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:20:32.101Z"}
+{"level":"error","timestamp":"2016-06-07T05:20:32.110Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:21:48.796Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:21:49.459Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:21:49.464Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:21:49.503Z"}
+{"level":"error","timestamp":"2016-06-07T05:21:49.512Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:22:04.030Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:22:04.698Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:22:04.703Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:22:04.741Z"}
+{"level":"error","timestamp":"2016-06-07T05:22:04.750Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:30:16.196Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:30:42.716Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:30:43.381Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:30:43.386Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:30:43.424Z"}
+{"level":"error","timestamp":"2016-06-07T05:30:43.434Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:31:13.028Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:31:13.702Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:31:13.707Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:31:13.745Z"}
+{"level":"error","timestamp":"2016-06-07T05:31:13.754Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:32:17.600Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:32:18.257Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:32:18.262Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:32:18.299Z"}
+{"level":"error","timestamp":"2016-06-07T05:32:18.308Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:32:22.472Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:32:23.135Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:32:23.139Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:32:23.179Z"}
+{"level":"error","timestamp":"2016-06-07T05:32:23.189Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:32:26.182Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:32:26.849Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:32:26.854Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:32:26.893Z"}
+{"level":"error","timestamp":"2016-06-07T05:32:26.902Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:33:06.014Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:33:06.682Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:33:06.686Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:33:06.724Z"}
+{"level":"error","timestamp":"2016-06-07T05:33:06.733Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:33:19.809Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:33:20.479Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:33:20.483Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:33:20.523Z"}
+{"level":"error","timestamp":"2016-06-07T05:33:20.533Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:34:24.908Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:34:25.574Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:34:25.579Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:34:25.616Z"}
+{"level":"error","timestamp":"2016-06-07T05:34:25.628Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:35:40.445Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:35:41.099Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:35:41.104Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:35:41.141Z"}
+{"level":"error","timestamp":"2016-06-07T05:35:41.150Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:36:37.483Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:36:38.168Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:36:38.173Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:36:38.211Z"}
+{"level":"error","timestamp":"2016-06-07T05:36:38.220Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:38:32.585Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:38:33.269Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:38:33.276Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:38:33.316Z"}
+{"level":"error","timestamp":"2016-06-07T05:38:33.325Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:38:46.383Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:38:47.043Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:38:47.047Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:38:47.084Z"}
+{"level":"error","timestamp":"2016-06-07T05:38:47.093Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:42:57.155Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:42:57.824Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:42:57.829Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:42:57.865Z"}
+{"level":"error","timestamp":"2016-06-07T05:42:57.874Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:43:18.641Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:43:19.319Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:43:19.323Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:43:19.361Z"}
+{"level":"error","timestamp":"2016-06-07T05:43:19.370Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:44:09.038Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:44:09.712Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:44:09.720Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:44:09.758Z"}
+{"level":"error","timestamp":"2016-06-07T05:44:09.767Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:44:36.515Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:44:37.180Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:44:37.185Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:44:37.222Z"}
+{"level":"error","timestamp":"2016-06-07T05:44:37.231Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:45:00.438Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:45:01.106Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:45:01.112Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:45:01.149Z"}
+{"level":"error","timestamp":"2016-06-07T05:45:01.159Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:45:07.786Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:45:08.462Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:45:08.467Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:45:08.504Z"}
+{"level":"error","timestamp":"2016-06-07T05:45:08.513Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:46:03.132Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:46:03.797Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:46:03.803Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:46:03.840Z"}
+{"level":"error","timestamp":"2016-06-07T05:46:03.849Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:46:56.797Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:46:57.453Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:46:57.458Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:46:57.495Z"}
+{"level":"error","timestamp":"2016-06-07T05:46:57.504Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:47:02.478Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:47:03.141Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:47:03.147Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:47:03.184Z"}
+{"level":"error","timestamp":"2016-06-07T05:47:03.193Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:47:46.475Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:47:47.155Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:47:47.159Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:47:47.202Z"}
+{"level":"error","timestamp":"2016-06-07T05:47:47.211Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:49:23.202Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:49:23.882Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:49:23.889Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:49:23.926Z"}
+{"level":"error","timestamp":"2016-06-07T05:49:23.936Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:49:50.578Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:49:51.224Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:49:51.229Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:49:51.267Z"}
+{"level":"error","timestamp":"2016-06-07T05:49:51.276Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:50:23.855Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:50:24.522Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:50:24.526Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:50:24.565Z"}
+{"level":"error","timestamp":"2016-06-07T05:50:24.574Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:50:31.593Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:50:32.255Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:50:32.260Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:50:32.297Z"}
+{"level":"error","timestamp":"2016-06-07T05:50:32.306Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:50:46.242Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:50:46.913Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:50:46.920Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:50:46.958Z"}
+{"level":"error","timestamp":"2016-06-07T05:50:46.967Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:51:03.187Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:51:03.854Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:51:03.861Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:51:03.898Z"}
+{"level":"error","timestamp":"2016-06-07T05:51:03.907Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:54:02.766Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:54:03.428Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:54:03.432Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:54:03.470Z"}
+{"level":"error","timestamp":"2016-06-07T05:54:03.479Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:54:39.293Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:54:39.984Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:54:39.989Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:54:40.027Z"}
+{"level":"error","timestamp":"2016-06-07T05:54:40.036Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:55:22.156Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:55:22.829Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:55:22.835Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:55:22.872Z"}
+{"level":"error","timestamp":"2016-06-07T05:55:22.882Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:55:43.524Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:55:44.208Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:55:44.218Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:55:44.279Z"}
+{"level":"error","timestamp":"2016-06-07T05:55:44.302Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:56:04.335Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:56:05.000Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:56:05.005Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:56:05.043Z"}
+{"level":"error","timestamp":"2016-06-07T05:56:05.053Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:56:13.775Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:56:14.484Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:56:14.489Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:56:14.532Z"}
+{"level":"error","timestamp":"2016-06-07T05:56:14.544Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:57:42.974Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:57:43.649Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:57:43.654Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:57:43.692Z"}
+{"level":"error","timestamp":"2016-06-07T05:57:43.701Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:57:48.476Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:57:49.186Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:57:49.191Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:57:49.238Z"}
+{"level":"error","timestamp":"2016-06-07T05:57:49.248Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:58:09.138Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:58:09.855Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:58:09.860Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:58:09.899Z"}
+{"level":"error","timestamp":"2016-06-07T05:58:09.908Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:58:25.312Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:58:25.974Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:58:25.980Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:58:26.021Z"}
+{"level":"error","timestamp":"2016-06-07T05:58:26.033Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:58:39.458Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:58:40.157Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:58:40.162Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:58:40.201Z"}
+{"level":"error","timestamp":"2016-06-07T05:58:40.210Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T05:59:00.667Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T05:59:01.339Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T05:59:01.343Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T05:59:01.382Z"}
+{"level":"error","timestamp":"2016-06-07T05:59:01.392Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:01:06.784Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:01:07.438Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:01:07.442Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:01:07.482Z"}
+{"level":"error","timestamp":"2016-06-07T06:01:07.491Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:03:44.272Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:03:44.931Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:03:44.936Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:03:44.977Z"}
+{"level":"error","timestamp":"2016-06-07T06:03:44.995Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:04:16.073Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:04:16.725Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:04:16.729Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:04:16.767Z"}
+{"level":"error","timestamp":"2016-06-07T06:04:16.776Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:04:29.056Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:04:29.733Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:04:29.738Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:04:29.776Z"}
+{"level":"error","timestamp":"2016-06-07T06:04:29.785Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:04:58.266Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:04:58.935Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:04:58.940Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:04:58.977Z"}
+{"level":"error","timestamp":"2016-06-07T06:04:58.986Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:05:43.316Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:05:43.990Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:05:43.998Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:05:44.040Z"}
+{"level":"error","timestamp":"2016-06-07T06:05:44.049Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:06:39.727Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:06:40.403Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:06:40.411Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:06:40.453Z"}
+{"level":"error","timestamp":"2016-06-07T06:06:40.467Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:07:03.271Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:07:03.941Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:07:03.948Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:07:03.986Z"}
+{"level":"error","timestamp":"2016-06-07T06:07:03.995Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:07:32.444Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:07:33.114Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:07:33.122Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:07:33.162Z"}
+{"level":"error","timestamp":"2016-06-07T06:07:33.172Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:07:36.807Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:07:37.479Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:07:37.485Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:07:37.527Z"}
+{"level":"error","timestamp":"2016-06-07T06:07:37.539Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:08:00.399Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:08:01.053Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:08:01.058Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:08:01.096Z"}
+{"level":"error","timestamp":"2016-06-07T06:08:01.106Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:08:07.015Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:08:07.699Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:08:07.705Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:08:07.753Z"}
+{"level":"error","timestamp":"2016-06-07T06:08:07.764Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:08:54.833Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:08:55.561Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:08:55.565Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:08:55.603Z"}
+{"level":"error","timestamp":"2016-06-07T06:08:55.612Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:09:58.881Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:09:59.545Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:09:59.550Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:09:59.587Z"}
+{"level":"error","timestamp":"2016-06-07T06:09:59.596Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:11:49.910Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:11:50.594Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:11:50.599Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:11:50.638Z"}
+{"level":"error","timestamp":"2016-06-07T06:11:50.647Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:13:48.513Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:13:49.187Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:13:49.192Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:13:49.230Z"}
+{"level":"error","timestamp":"2016-06-07T06:13:49.239Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:14:06.882Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:14:07.553Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:14:07.565Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:14:07.608Z"}
+{"level":"error","timestamp":"2016-06-07T06:14:07.622Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:25:18.736Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:25:19.413Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:25:19.418Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:25:19.456Z"}
+{"level":"error","timestamp":"2016-06-07T06:25:19.464Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:25:44.826Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:25:45.567Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:25:45.572Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:25:45.610Z"}
+{"level":"error","timestamp":"2016-06-07T06:25:45.621Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:26:33.449Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:26:34.119Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:26:34.124Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:26:34.162Z"}
+{"level":"error","timestamp":"2016-06-07T06:26:34.171Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:27:31.973Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:27:32.643Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:27:32.651Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:27:32.694Z"}
+{"level":"error","timestamp":"2016-06-07T06:27:32.707Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:27:49.881Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:27:50.556Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:27:50.561Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:27:50.599Z"}
+{"level":"error","timestamp":"2016-06-07T06:27:50.608Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:28:34.397Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:28:35.101Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:28:35.108Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:28:35.148Z"}
+{"level":"error","timestamp":"2016-06-07T06:28:35.157Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:28:43.839Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:28:44.518Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:28:44.523Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:28:44.562Z"}
+{"level":"error","timestamp":"2016-06-07T06:28:44.571Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:29:01.118Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:29:01.783Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:29:01.788Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:29:01.828Z"}
+{"level":"error","timestamp":"2016-06-07T06:29:01.838Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:40:28.745Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:40:29.426Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:40:29.431Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:40:29.468Z"}
+{"level":"error","timestamp":"2016-06-07T06:40:29.477Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:43:49.221Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:45:08.434Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:45:09.108Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:45:09.118Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:45:09.162Z"}
+{"level":"error","timestamp":"2016-06-07T06:45:09.172Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:49:05.613Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:49:06.280Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:49:06.288Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:49:06.330Z"}
+{"level":"error","timestamp":"2016-06-07T06:49:06.341Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:52:38.441Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:52:39.137Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:52:39.146Z"}
+{"$__":{"strictMode":true,"inserting":true,"getters":{},"wasPopulated":false,"activePaths":{"paths":{"role":"require","isAccountActive":"require","accountLocked":"require","salt":"require","password":"require","email":"require","lastName":"require","firstName":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"role":true,"isAccountActive":true,"accountLocked":true,"salt":true,"password":true,"email":true,"lastName":true,"firstName":true}},"stateNames":["require","modify","init","default","ignore"]},"emitter":{"domain":null,"_events":{},"_maxListeners":0}},"isNew":false,"_doc":{"firstName":"Admin","lastName":"admin","email":"rama.shankar@oodlestechnologies.com","password":"c84325ff001b7a6ab537a89cd938adb751e26138","salt":"6c363ec0-2c7c-11e6-b75b-531450a6406e","accountLocked":false,"isAccountActive":true,"created":"2016-06-07T06:52:39.150Z","_id":{"_bsontype":"ObjectID","id":"WVo7Ta1$\u0015&M"},"role":"ROLE_ADMIN","updatedAt":"2016-06-07T06:52:39.166Z","createdAt":"2016-06-07T06:52:39.166Z","deleted":false,"deletedAt":null,"__v":0},"_pres":{"$__original_save":[null,null,null,null,null]},"_posts":{"$__original_save":[]},"level":"info","message":"","timestamp":"2016-06-07T06:52:39.193Z"}
+{"level":"error","timestamp":"2016-06-07T06:52:39.207Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:54:45.452Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:54:46.124Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:54:46.129Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:54:46.168Z"}
+{"level":"error","timestamp":"2016-06-07T06:54:46.178Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:55:20.460Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:55:32.683Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:56:13.120Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:57:04.933Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:57:36.521Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T06:58:15.632Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T06:58:16.295Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T06:58:16.301Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T06:58:16.339Z"}
+{"level":"error","timestamp":"2016-06-07T06:58:16.348Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:00:01.021Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:00:01.692Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:00:01.697Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:00:01.737Z"}
+{"level":"error","timestamp":"2016-06-07T07:00:01.747Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:07:44.576Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:08:13.213Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:08:13.896Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:08:13.901Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:08:13.942Z"}
+{"level":"error","timestamp":"2016-06-07T07:08:13.951Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:10:11.259Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:10:11.934Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:10:11.939Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:10:11.978Z"}
+{"level":"error","timestamp":"2016-06-07T07:10:11.987Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:12:50.826Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:12:51.507Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:12:51.512Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:12:51.550Z"}
+{"level":"error","timestamp":"2016-06-07T07:12:51.559Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:13:25.785Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:13:26.437Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:13:26.442Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:13:26.480Z"}
+{"level":"error","timestamp":"2016-06-07T07:13:26.489Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:14:00.138Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:14:00.811Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:14:00.816Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:14:00.855Z"}
+{"level":"error","timestamp":"2016-06-07T07:14:00.864Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:16:05.061Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:16:05.731Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:16:05.738Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:16:05.776Z"}
+{"level":"error","timestamp":"2016-06-07T07:16:05.785Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:16:22.453Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:16:23.105Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:16:23.110Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:16:23.148Z"}
+{"level":"error","timestamp":"2016-06-07T07:16:23.159Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:17:56.929Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:17:57.604Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:17:57.610Z"}
+{"$__":{"strictMode":true,"inserting":true,"getters":{},"wasPopulated":false,"activePaths":{"paths":{"role":"require","isAccountActive":"require","accountLocked":"require","salt":"require","password":"require","email":"require","lastName":"require","firstName":"require"},"states":{"ignore":{},"default":{},"init":{},"modify":{},"require":{"role":true,"isAccountActive":true,"accountLocked":true,"salt":true,"password":true,"email":true,"lastName":true,"firstName":true}},"stateNames":["require","modify","init","default","ignore"]},"emitter":{"domain":null,"_events":{},"_maxListeners":0}},"isNew":false,"_doc":{"firstName":"Admin","lastName":"admin","email":"rama.shankar@oodlestechnologies.com","password":"97d3290412d9bd8b29244722d4692184461c5a9f","salt":"f54d2040-2c7f-11e6-b200-61baf0e88e2d","accountLocked":false,"isAccountActive":true,"created":"2016-06-07T07:17:57.612Z","_id":{"_bsontype":"ObjectID","id":"WVu%\u001eÒè&\u0002\u0015°"},"role":"ROLE_ADMIN","updatedAt":"2016-06-07T07:17:57.627Z","createdAt":"2016-06-07T07:17:57.627Z","deleted":false,"deletedAt":null,"__v":0},"_pres":{"$__original_save":[null,null,null,null,null]},"_posts":{"$__original_save":[]},"level":"info","message":"","timestamp":"2016-06-07T07:17:57.651Z"}
+{"level":"error","timestamp":"2016-06-07T07:17:57.660Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:18:53.349Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:18:54.013Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:18:54.018Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:18:54.054Z"}
+{"level":"error","timestamp":"2016-06-07T07:18:54.063Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:29:02.648Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:29:03.300Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:29:03.305Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:29:03.341Z"}
+{"level":"error","timestamp":"2016-06-07T07:29:03.350Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:31:03.847Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:31:04.516Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:31:04.521Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:31:04.557Z"}
+{"level":"error","timestamp":"2016-06-07T07:31:04.565Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:37:06.038Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:41:11.951Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:42:20.407Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:42:21.097Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:42:21.102Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:42:21.140Z"}
+{"level":"error","timestamp":"2016-06-07T07:42:21.149Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:48:37.837Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:48:38.519Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:48:38.524Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:48:38.562Z"}
+{"level":"error","timestamp":"2016-06-07T07:48:38.571Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:48:49.650Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:48:50.332Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:48:50.337Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:48:50.374Z"}
+{"level":"error","timestamp":"2016-06-07T07:48:50.383Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:48:55.554Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:48:56.221Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:48:56.225Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:48:56.263Z"}
+{"level":"error","timestamp":"2016-06-07T07:48:56.272Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:50:45.576Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:50:46.241Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:50:46.245Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:50:46.284Z"}
+{"level":"error","timestamp":"2016-06-07T07:50:46.292Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:51:05.140Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:51:05.808Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:51:05.818Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:51:05.860Z"}
+{"level":"error","timestamp":"2016-06-07T07:51:05.870Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:55:28.972Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:55:29.657Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:55:29.662Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:55:29.700Z"}
+{"level":"error","timestamp":"2016-06-07T07:55:29.709Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:56:25.572Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:56:26.238Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:56:26.243Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:56:26.281Z"}
+{"level":"error","timestamp":"2016-06-07T07:56:26.290Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:58:55.307Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T07:59:12.372Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T07:59:13.066Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T07:59:13.074Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T07:59:13.115Z"}
+{"level":"error","timestamp":"2016-06-07T07:59:13.124Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T08:03:37.959Z"}
+{"level":"info","message":"configROLE_USER,ROLE_ADMIN,ROLE_SUPERADMIN","timestamp":"2016-06-07T08:04:02.337Z"}
+{"level":"info","message":"Connected to mongo server.","timestamp":"2016-06-07T08:04:03.033Z"}
+{"level":"info","message":"document === null","timestamp":"2016-06-07T08:04:03.037Z"}
+{"level":"info","message":"undefined","timestamp":"2016-06-07T08:04:03.075Z"}
+{"level":"error","timestamp":"2016-06-07T08:04:03.084Z"}
