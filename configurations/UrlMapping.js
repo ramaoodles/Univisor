@@ -3,10 +3,23 @@
 	  console.log("--------");
 	  // console.log(app);
 	  // console.log();
+		app.use(expressSession({ secret: 'SECRET' }));
+		app.use(passport.initialize());
+		// app.get('/auth/facebook',
+		//   passport.authenticate('facebook'),function(req,res){
+		//   });
+
+		app.get('/auth/facebook/callback',
+		  passport.authenticate('facebook', { failureRedirect: '/login' }),
+		  function(req, res) {
+				console.log("callback url");
+		    // Successful authentication, redirect home.
+		    res.redirect('/');
+		  });
+
 	  var controllers = app.controllers,
 	    views = app.views;
 	  var sec = configurationHolder.security;
-
 	  return {
 	    "/user": [{
 	      method: "POST",
@@ -95,25 +108,24 @@
 						json:views.jsonView
 					}
 			}],
-			"/auth/facebook":[{
+			"/auth/facebook": [{
 					method:"GET",
 					action:passport.initialize(),
 					middleware:[passport.authenticate('facebook',{
 						 failureRedirect: '/login',
-						 scope : 'email'
-					})],
+						 session: false
+					}),sec.generateToken,sec.respond],
 					views:{
 						json:views.jsonView
 					}
-
-			}],
-			"/auth/facebook/callback":[{
-				method:"GET", // will be changed to post
-				action:controllers.authenticationController.authenticationCallback,
-				views:{
-					json:views.jsonView
-				}
 			}]
+			// "/auth/facebook/callback":[{
+			// 	method:"GET",
+			// 	action:controllers.authenticationController.authenticationCallback,
+			// 	views:{
+			// 		json:views.jsonView
+			// 	}
+			// }]
 
 	};
 }

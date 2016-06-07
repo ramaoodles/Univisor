@@ -15,11 +15,10 @@
    // Database dependencies and Connection setting
    global.mongoose = require('mongoose');
    global.mongooseSchema = mongoose.Schema;
+   global.expressSession = require('express-session');
    global.dbConnection = require('./Datasource.js').getDbConnection()
-
    //global variable to hold all the environment specific configuration
    global.configurationHolder = {}
-
    // Application specific configuration details
    configurationHolder.config = require('./Conf.js').configVariables()
 
