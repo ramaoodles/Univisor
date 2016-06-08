@@ -5,13 +5,10 @@
 	  // console.log();
 		app.use(expressSession({ secret: 'SECRET' }));
 		app.use(passport.initialize());
-		// app.get('/auth/facebook',
-		//   passport.authenticate('facebook'),function(req,res){
-		//   });
-
 		app.get('/auth/facebook/callback',
 		  passport.authenticate('facebook', { failureRedirect: '/login' }),
 		  function(req, res) {
+				// console.log(req);
 				console.log("callback url");
 		    // Successful authentication, redirect home.
 		    res.redirect('/');
@@ -119,6 +116,7 @@
 						json:views.jsonView
 					}
 			}]
+
 			// "/auth/facebook/callback":[{
 			// 	method:"GET",
 			// 	action:controllers.authenticationController.authenticationCallback,

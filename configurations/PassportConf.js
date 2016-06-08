@@ -33,7 +33,6 @@ passport.use(new LocalStrategy(
 
 var matchEncryptedPassword = function(password, user) {
     var encryptedPassword = crypto.createHmac('sha1', user.salt).update(password.toString()).digest('hex');
-    console.log(encryptedPassword, user.password);
     if (user.password == encryptedPassword) {
       return true;
     } else {

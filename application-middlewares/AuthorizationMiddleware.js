@@ -89,6 +89,7 @@ module.exports.AuthorizationMiddleware = (function () {
         }
 
         var generateToken = function  (req, res, next) {
+          console.log("generateToken");
             var token  = uuid.v1();
             var user = req.user;
             var AuthenticationToken = new domain.AuthenticationToken({
